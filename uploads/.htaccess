@@ -1,0 +1,4 @@
+<FilesMatch "\.(php|php5|phtml|phar)$">
+  Deny from all
+</FilesMatch>
+Options -ExecCGI
